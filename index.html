@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-    <div id="center_div">
+    <div id="center_div" class="hideAll">
         <h1>I-Chun (Arthur) Liu</h1>
         <p>UCLA M.S. CS and UW-Madison B.S. CS alumnus</p>
         <a href="https://www.linkedin.com/in/i-chun-arthur-liu">
@@ -28,4 +29,9 @@
 <!-- scripts -->
 <script src="/js/particles.min.js"></script>
 <script src="/js/app.js"></script>
+<script type="text/javascript">
+    window.onload=function() {
+        $("#center_div").removeClass("hideAll");
+    };
+</script>
 </body>
