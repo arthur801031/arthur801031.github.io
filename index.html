@@ -21,10 +21,10 @@
                 <name>I-Chun (Arthur) Liu</name>
               </p>
               <p>
-                I am a first-year master's student in computer science at the University of Southern California (USC). I am working as a research assistant in the  Robotics Embedded Systems Laboratory, advised by Professor Gaurav Sukhatme. My research interests are in deep reinforcement learning,  vision, and sim-to-real transfer for robotics.                
+                I am a first-year master's student in computer science at the University of Southern California (USC). I am also a research assistant in the <a href="https://robotics.usc.edu/resl/">Robotics Embedded Systems Laboratory</a>, advised by Professor <a href="https://robotics.usc.edu/~gaurav/">Gaurav Sukhatme</a>. My research interests are in deep reinforcement learning,  vision, and sim-to-real transfer for robotics.                
               </p>
               <p>
-                Before attending USC, I graduated from the University of Wisconsin-Madison with a Bachelor of Science degree in Computer Science and the University of California, Los Angeles (UCLA) with a Master of Science in Computer Science. 
+                Before attending USC, I graduated from the University of Wisconsin-Madison with a Bachelor of Science in Computer Science and the University of California, Los Angeles (UCLA) with a Master of Science in Computer Science. 
               </p>
               <!-- <p>
                 As for my other research experience, I worked as a research assistant at Academia Sinica on computer vision research in the medical field, including object detection, instance segmentation, and loss functions. My advisors were Hong-Yuan Mark Liao and Professor Li-Fen Chen. 
@@ -33,7 +33,7 @@
                 <a href="mailto:arthurleyu@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/mycv.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://github.com/arthur801031/">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/i-chun-arthur-liu/">LinkedIn</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/i-chun-arthur-liu/">LinkedIn</a>
                 <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
                 <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
                 <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
@@ -48,16 +48,16 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>
+              <!-- <p>
                 I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
-              </p>
+              </p> -->
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
           <tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <!-- <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop>
                 <source src="images/hypernerf_after.mp4" type="video/mp4">
@@ -75,29 +75,30 @@
                 }
                 hypernerf_stop()
               </script>
-            </td>
+            </td> -->
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://hypernerf.github.io/">
-                <papertitle>HyperNeRF: A Higher-Dimensional Representation
-for Topologically Varying Neural Radiance Fields</papertitle>
-              </a>
+              <!-- <a href="https://hypernerf.github.io/"> -->
+                <papertitle>Distilling Motion-Planner Augmented Policies into Visual Control Policies for Robot Manipulation</papertitle>
+              <!-- </a> -->
               <br>
-							<a href="https://keunhong.com">Keunhong Park</a>,
-							<a href="https://utkarshsinha.com">Utkarsh Sinha</a>, 
-							<a href="https://phogzone.com/">Peter Hedman</a>,
-              <strong>Jonathan T. Barron</strong>,
-							<a href="http://sofienbouaziz.com">Sofien Bouaziz</a>, <br>
-							<a href="https://www.danbgoldman.com">Dan B Goldman</a>,
-							<a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a>, 
-							<a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a>
+              <strong>I-Chun Arthur Liu*</strong>,
+							<a href="https://shagunuppal.github.io/">Shagun Uppal*</a>,
+							<a href="https://youngwoon.github.io">Youngwoon Lee</a>, 
+							<a href="http://robotics.usc.edu/~gaurav">Gaurav S. Sukhatme</a>,
+							<a href="https://viterbi-web.usc.edu/~limjj/">Joseph J. Lim</a>,
+							<a href="http://www.peter-englert.net/">Peter Englert</a>
               <br>
-              <em>SIGGRAPH Asia</em>, 2021 
+              <strong><em>Conference on Robot Learning (CoRL)</em></strong>, 2021 
               <br>
-              <a href="https://hypernerf.github.io/">project page</a>
+              <!-- <a href="https://hypernerf.github.io/">project page</a> -->
+              Paper
+              <!-- <a href="https://arxiv.org/abs/2106.13228">Paper</a> -->
               /
-              <a href="https://arxiv.org/abs/2106.13228">arXiv</a>
+              Project
+              /
+              Code
               <p></p>
-              <p>Applying ideas from level set methods to NeRF lets you represent scenes that deform and change shape.</p>
+              <p>We propose a framework to learn a visual control policy in a two-step procedure: 1) Learn a policy with long-horizon planning capabilities in state space using motion planning-augmented reinforcement learning; 2) Distill this policy into the visual domain while removing the dependency on motion planner.</p>
             </td>
           </tr> 
 				
@@ -153,9 +154,10 @@ for Topologically Varying Neural Radiance Fields</papertitle>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
+              <p style="text-align:right;font-size:small;">* Equal contribution</p>              
               <br>
               <p style="text-align:right;font-size:small;">
-                I borrowed this website layout from <a href="https://github.com/jonbarron/jonbarron_website">here</a>!
+                Website template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>!
               </p>
             </td>
           </tr>
