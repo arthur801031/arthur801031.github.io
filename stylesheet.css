@@ -135,3 +135,17 @@
   span.highlight {
     background-color: #ffffd0;
   }
+
+  .left-image {
+    display: inline-block;
+    padding: 20px;
+    padding-top: 50px;
+    width: 25%;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 767px) {
+    .left-image {
+      display: none;
+    }
+  }
