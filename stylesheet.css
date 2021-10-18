@@ -144,8 +144,28 @@
     vertical-align: middle;
   }
 
+  .right-contents {
+    padding:20px;
+    width:75%;
+    vertical-align:middle;
+  }
+
   @media (max-width: 767px) {
+    .one {
+      width: 100%;
+      height: 100%;
+    }
     .left-image {
-      display: none;
+      /* display: none; */
+      display: inline-block;
+      width: 100%;
+      padding: 0px;
+      padding-bottom: 20px;
+    }
+    .right-contents {
+      display: inline-block;
+      width: 100%;
+      padding: 0px;
+      padding-bottom: 50px;
     }
   }
