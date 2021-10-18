@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table style="width:100%;max-width:1100px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -76,6 +76,10 @@
                 hypernerf_stop()
               </script>
             </td> -->
+
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img class="one" src="images/thumbnail_distilling_motion_planner.gif" alt="Thumbnail">
+            </td>  
             <td style="padding:20px;width:75%;vertical-align:middle">
               <!-- <a href="https://hypernerf.github.io/"> -->
                 <papertitle>Distilling Motion-Planner Augmented Policies into Visual Control Policies for Robot Manipulation</papertitle>
@@ -98,7 +102,7 @@
               /
               Code
               <p></p>
-              <p>We propose a framework to learn a visual control policy in a two-step procedure: 1) Learn a policy with long-horizon planning capabilities in state space using motion planning-augmented reinforcement learning; 2) Distill this policy into the visual domain while removing the dependency on motion planner.</p>
+              <p>We propose to distill the state-based motion planner augmented policy to a visual control policy via (1) visual behavioral cloning to remove the motion planner dependency along with its jittery motion, and (2) vision-based reinforcement learning with the guidance of the smoothed trajectories from the behavioral cloning agent.</p>
             </td>
           </tr> 
 				
