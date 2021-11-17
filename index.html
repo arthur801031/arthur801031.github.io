@@ -5,12 +5,16 @@
   <meta name="description" content="I-Chun (Arthur) Liu's personal website.">
   <meta name="author" content="I-Chun (Arthur) Liu">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Refresh" content="0; url='https://arthurliu.netlify.app/'" />
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
 
 <body>
+  This is my new <a href="https://arthurliu.netlify.app/">website</a>.
+</body>
+<!-- <body>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
@@ -26,17 +30,11 @@
               <p>
                 Before attending USC, I graduated from the University of Wisconsin-Madison with a Bachelor of Science in Computer Science and the University of California, Los Angeles (UCLA) with a Master of Science in Computer Science. 
               </p>
-              <!-- <p>
-                As for my other research experience, I worked as a research assistant at Academia Sinica on computer vision research in the medical field, including object detection, instance segmentation, and loss functions. My advisors were Hong-Yuan Mark Liao and Professor Li-Fen Chen. 
-              </p> -->
               <p style="text-align:center">
                 <a href="mailto:arthurleyu@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/mycv.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://github.com/arthur801031/">Github</a> &nbsp/&nbsp
                 <a href="https://www.linkedin.com/in/i-chun-arthur-liu/">LinkedIn</a>
-                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
-                <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp/&nbsp -->
-                <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -48,42 +46,17 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <!-- <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
-              </p> -->
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
           <tr onmouseout="hypernerf_stop()" onmouseover="hypernerf_start()">
-            <!-- <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='hypernerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/hypernerf_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/hypernerf_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function hypernerf_start() {
-                  document.getElementById('hypernerf_image').style.opacity = "1";
-                }
-
-                function hypernerf_stop() {
-                  document.getElementById('hypernerf_image').style.opacity = "0";
-                }
-                hypernerf_stop()
-              </script>
-            </td> -->
-
             <td class="left-image">
               <img class="one" src="images/thumbnail_distilling_motion_planner.gif" alt="Thumbnail">
             </td>
             <td class="right-contents">
-              <!-- <a href="https://hypernerf.github.io/"> -->
                 <papertitle>Distilling Motion-Planner Augmented Policies into Visual Control Policies for Robot Manipulation</papertitle>
-              <!-- </a> -->
               <br>
               <strong>I-Chun Arthur Liu*</strong>,
 							<a href="https://shagunuppal.github.io/">Shagun Uppal*</a>,
@@ -95,7 +68,6 @@
               <strong><em>Conference on Robot Learning (CoRL)</em></strong>, 2021 
               <br>
               <a href="https://openreview.net/pdf?id=NZnz3cExrDW">Paper</a>
-              <!-- <a href="https://arxiv.org/abs/2106.13228">Paper</a> -->
               /
               <a href="https://clvrai.com/mopa-pd">Project</a>
               /
@@ -104,52 +76,6 @@
               <p>We propose to distill the state-based motion planner augmented policy to a visual control policy via (1) visual behavioral cloning to remove the motion planner dependency along with its jittery motion, and (2) vision-based reinforcement learning with the guidance of the smoothed trajectories from the behavioral cloning agent.</p>
             </td>
           </tr> 
-				
-          <!-- <tr onmouseout="mipnerf_stop()" onmouseover="mipnerf_start()"  bgcolor="#ffffd0">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mipnerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/mipnerf_ipe_yellow.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/mipnerf_ipe_yellow.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function mipnerf_start() {
-                  document.getElementById('mipnerf_image').style.opacity = "1";
-                }
-
-                function mipnerf_stop() {
-                  document.getElementById('mipnerf_image').style.opacity = "0";
-                }
-                mipnerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://jonbarron.info/mipnerf">
-                <papertitle>Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields</papertitle>
-              </a>
-              <br>
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-              <a href="http://matthewtancik.com/">Matthew Tancik</a>, <br>
-              <a href="https://phogzone.com/">Peter Hedman</a>,
-              <a href="http://www.ricardomartinbrualla.com/">Ricardo Martin-Brualla</a>,
-              <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>
-              <br>
-							<em>ICCV</em>, 2021 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
-              <br>
-              <a href="http://jonbarron.info/mipnerf">project page</a>
-              /
-              <a href="https://arxiv.org/abs/2103.13415">arXiv</a>
-              /
-              <a href="https://youtu.be/EpH175PY1A0">video</a>
-							/
-              <a href="https://github.com/google/mipnerf">code</a>
-              <p></p>
-              <p>NeRF is aliased, but we can anti-alias it by casting cones and prefiltering the positional encoding function.</p>
-            </td>
-          </tr>  -->
         </tbody></table>
 
 
@@ -168,5 +94,5 @@
       </td>
     </tr>
   </table>
-</body>
+</body> -->
 </html>
