@@ -3,7 +3,7 @@ export const profile = {
   title: "PhD Candidate",
   affiliation: "University of Southern California",
   avatar: "/images/profile.png",
-  bio: `I'm a final-year PhD candidate at the <a href="https://www.usc.edu/" target="_blank" rel="noopener">University of Southern California</a>, advised by Prof. <a href="https://uscresl.org/principal-investigator/" target="_blank" rel="noopener">Gaurav Sukhatme</a> and working closely with Prof. <a href="https://danielseita.github.io/" target="_blank" rel="noopener">Daniel Seita</a>. I study 3D representations for sample-efficient robotic bimanual manipulation. I've interned at Google DeepMind and Amazon Robotics, and previously earned my M.S. in Computer Science from UCLA and my B.S. in Computer Science from the University of Wisconsin–Madison.`,
+  bio: `I'm a final-year PhD candidate at the <a href="https://www.usc.edu/" target="_blank" rel="noopener">University of Southern California</a>, advised by Prof. <a href="https://uscresl.org/principal-investigator/" target="_blank" rel="noopener">Gaurav Sukhatme</a> and working closely with Prof. <a href="https://danielseita.github.io/" target="_blank" rel="noopener">Daniel Seita</a>. My research focuses on 3D representations that help robots learn bimanual manipulation efficiently, enabling two-armed robots to handle complex real-world tasks with less training data. I've done research internships at Google DeepMind and Amazon Robotics, and I hold an M.S. in Computer Science from UCLA and a B.S. in Computer Science from UW–Madison.`,
   researchInterests: [
     "Robotic Bimanual Manipulation",
     "Imitation Learning",
