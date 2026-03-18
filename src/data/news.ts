@@ -16,7 +16,7 @@ export const news: NewsItem[] = [
   {
     date: "Jun 2025",
     content:
-      "Started as a <strong>Student Researcher at Google</strong> for Summer/Fall 2025.",
+      "Started as a <strong>Student Researcher at Google DeepMind</strong> for Summer/Fall 2025.",
   },
   {
     date: "Mar 2025",

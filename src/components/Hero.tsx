@@ -72,7 +72,7 @@ export default function Hero() {
 
             {/* Bio */}
             <p
-              className="mt-6 text-base leading-relaxed text-text-secondary max-w-2xl"
+              className="mt-6 text-base leading-relaxed text-text-secondary max-w-2xl mx-auto sm:mx-0 px-4 sm:px-0"
               dangerouslySetInnerHTML={{ __html: profile.bio }}
             />
 
@@ -89,7 +89,7 @@ export default function Hero() {
             </div>
 
             {/* Education */}
-            <div className="mt-6 space-y-1.5">
+            <div className="mt-6 space-y-1.5 text-left">
               {profile.education.map((edu, i) => (
                 <div
                   key={i}
