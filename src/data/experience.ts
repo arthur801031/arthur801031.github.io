@@ -18,7 +18,7 @@ export const experiences: Experience[] = [
   },
   {
     role: "PhD Researcher",
-    organization: "USC Robotics Embedded Systems Laboratory (RESL)",
+    organization: "USC Robotic Embedded Systems Laboratory (RESL)",
     location: "Los Angeles, CA",
     period: "Aug 2023 – Present",
     description:
