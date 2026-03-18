@@ -65,7 +65,7 @@ export default function Hero() {
 
             {/* Bio */}
             <p
-              className="mt-6 text-base leading-relaxed text-text-secondary max-w-2xl mx-auto sm:mx-0 px-4 sm:px-0"
+              className="mt-6 text-base leading-relaxed text-text-secondary max-w-2xl mx-auto sm:mx-0 px-4 sm:px-0 text-justify sm:text-left"
               dangerouslySetInnerHTML={{ __html: profile.bio }}
             />
 
