@@ -6,7 +6,11 @@ export const metadata: Metadata = {
   description:
     "Personal website of I-Chun (Arthur) Liu, PhD Candidate at USC working on robotics, bimanual manipulation, and imitation learning.",
   icons: {
-    icon: "/images/profile.png",
+    icon: [
+      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/images/apple-touch-icon.png",
   },
 };
 
