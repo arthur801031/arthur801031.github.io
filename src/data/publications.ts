@@ -12,7 +12,7 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     title:
-      "CLAMP: Contrastive LAnguage-image 3D Multi-view Action-conditioned Pre-training for Robotic Manipulation",
+      "CLAMP: Contrastive Learning for 3D Multi-View Action-Conditioned Robotic Manipulation Pretraining",
     authors:
       "<u>I-Chun Arthur Liu</u>, Krzysztof Choromanski, Sandy Huang, Connor Schenck",
     venue: "Under Review",
@@ -24,7 +24,7 @@ export const publications: Publication[] = [
   },
   {
     title:
-      "D-CODA: Diffusion for COordinated Dual-Arm Data Augmentation",
+      "D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation",
     authors:
       "<u>I-Chun Arthur Liu</u>, Jason Chen, Gaurav S. Sukhatme, Daniel Seita",
     venue: "Conference on Robot Learning (CoRL), 2025",
@@ -32,6 +32,7 @@ export const publications: Publication[] = [
     gif: "/gifs/d-coda.gif",
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2505.04860" },
+      { label: "Code", url: "https://github.com/dcodaaug/dcoda" },
       { label: "Project", url: "https://dcodaaug.github.io/D-CODA/" },
     ],
   },
