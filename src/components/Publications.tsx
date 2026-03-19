@@ -5,7 +5,7 @@ export default function Publications() {
   return (
     <section className="py-12 sm:py-16 bg-surface">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
-        <SectionHeader id="publications" title="Selected Publications" />
+        <SectionHeader id="publications" title="Publications" />
         <p className="text-sm text-text-secondary -mt-4 mb-6">* denotes equal contribution. † denotes equal advising.</p>
         <div className="space-y-8">
           {publications.map((pub, i) => (

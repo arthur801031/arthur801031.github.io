@@ -24,6 +24,19 @@ export const publications: Publication[] = [
   },
   {
     title:
+      "ROPA: Synthetic Robot Pose Generation for RGB-D Bimanual Data Augmentation",
+    authors:
+      "Jason Chen, <u>I-Chun Arthur Liu</u>, Gaurav S. Sukhatme, Daniel Seita",
+    venue: "International Conference on Robotics and Automation (ICRA), 2026",
+    year: 2026,
+    gif: "/gifs/ropa.gif",
+    links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2509.19454" },
+      { label: "Project", url: "https://ropaaug.github.io/" },
+    ],
+  },
+  {
+    title:
       "D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation",
     authors:
       "<u>I-Chun Arthur Liu</u>, Jason Chen, Gaurav S. Sukhatme, Daniel Seita",

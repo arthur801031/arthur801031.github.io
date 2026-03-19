@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
     location: "Los Angeles, CA",
     period: "Aug 2023 – Present",
     description:
-      "See Selected Publications for details.",
+      "See Publications for details.",
   },
   {
     role: "Applied Scientist Intern",
