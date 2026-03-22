@@ -10,7 +10,7 @@ export interface TeachingEntry {
 
 export const mentees: Mentee[] = [
   { name: "Jason Chen", note: "CoRL 2025, ICRA 2026, Current" },
-  { name: "Sicheng He", note: "CoRL 2024" },
+  { name: "Sicheng He (USC → PhD at UC Irvine)", note: "CoRL 2024" },
   { name: "Hanwen Fan", note: "Current" },
   { name: "QJ Tsway", note: "Current" },
 ];
