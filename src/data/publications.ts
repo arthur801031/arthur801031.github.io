@@ -15,8 +15,8 @@ export const publications: Publication[] = [
       "CLAMP: Contrastive Learning for 3D Multi-View Action-Conditioned Robotic Manipulation Pretraining",
     authors:
       "<u>I-Chun Arthur Liu</u>, Krzysztof Choromanski, Sandy Huang, Connor Schenck",
-    venue: "Under Review",
-    year: 2025,
+    venue: "Robotics: Science and Systems (RSS), 2026",
+    year: 2026,
     gif: "/gifs/clamp_small.gif",
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2602.00937" },

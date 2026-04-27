@@ -6,6 +6,10 @@ export interface NewsItem {
 // Add new news items at the top of this array
 export const news: NewsItem[] = [
   {
+    date: "Apr 2026",
+    content: "One paper accepted to <strong>RSS 2026</strong>!",
+  },
+  {
     date: "Feb 2026",
     content: "One paper accepted to <strong>ICRA 2026</strong>!",
   },
