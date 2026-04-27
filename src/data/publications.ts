@@ -20,6 +20,7 @@ export const publications: Publication[] = [
     gif: "/gifs/clamp_small.gif",
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2602.00937" },
+      { label: "Project", url: "https://clamp3d.github.io/CLAMP/" },
     ],
   },
   {
