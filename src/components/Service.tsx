@@ -1,11 +1,11 @@
-import { mentees, reviewerRoles, teaching } from "@/data/services";
+import { mentees, reviewerRoles, talks, teaching } from "@/data/services";
 import SectionHeader from "./SectionHeader";
 
 export default function Service() {
   return (
     <section className="py-12 sm:py-16">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
-        <SectionHeader id="service" title="Service & Mentoring" />
+        <SectionHeader id="service" title="Academic Activities" />
 
         <div className="grid gap-6 sm:grid-cols-3">
           {/* Mentoring */}
@@ -97,6 +97,42 @@ export default function Service() {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+
+        {/* Talks */}
+        <div className="mt-6 bg-white rounded-lg border border-border p-5">
+          <h3 className="text-sm font-semibold text-text flex items-center gap-2">
+            <svg
+              className="w-4 h-4 text-primary"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 10v4a1 1 0 001 1h3l4 4V5L7 9H4a1 1 0 00-1 1zm13.5 2a4.5 4.5 0 00-2-3.742M19 5.071A8 8 0 0119 18.93"
+              />
+            </svg>
+            Talks
+          </h3>
+          <div className="mt-3 space-y-4">
+            {talks.map((group) => (
+              <div key={group.year}>
+                <div className="text-sm font-medium text-text">
+                  {group.year}
+                </div>
+                <ul className="mt-1 space-y-1.5">
+                  {group.items.map((item, i) => (
+                    <li key={i} className="text-sm text-text-secondary">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>

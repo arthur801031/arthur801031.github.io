@@ -8,7 +8,7 @@ const links = [
   { label: "Publications", href: "#publications" },
   { label: "Experience", href: "#experience" },
   { label: "Awards", href: "#awards" },
-  { label: "Service", href: "#service" },
+  { label: "Activities", href: "#service" },
 ];
 
 export default function Navbar() {

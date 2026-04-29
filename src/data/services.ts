@@ -8,6 +8,11 @@ export interface TeachingEntry {
   semester: string;
 }
 
+export interface TalkEntry {
+  year: string;
+  items: string[];
+}
+
 export const mentees: Mentee[] = [
   { name: "Jason Chen", note: "CoRL 2025, ICRA 2026, Current" },
   { name: "Sicheng He (USC → PhD at UC Irvine)", note: "CoRL 2024" },
@@ -30,5 +35,23 @@ export const teaching: TeachingEntry[] = [
   {
     course: "CSCI 545: Introduction to Robotics",
     semester: "Fall 2024",
+  },
+];
+
+export const talks: TalkEntry[] = [
+  {
+    year: "2026",
+    items: [
+      "ICLR Expo Talk with the Robot Vision Team from Google DeepMind: invited talk on CLAMP (Apr.)",
+      "Google DeepMind: research presentation on CLAMP (Mar.)",
+      "USC PhD Thesis Proposal: “3D Representations for Sample‑Efficient Robotic Bimanual Manipulation” (Feb.)",
+    ],
+  },
+  {
+    year: "2025",
+    items: [
+      "Google DeepMind: research presentation on D‑CODA (Jul.)",
+      "USC PhD Qualifying Exam: “VoxAct‑B: Voxel‑Based Acting and Stabilizing Policy for Bimanual Manipulation” (Mar.)",
+    ],
   },
 ];
