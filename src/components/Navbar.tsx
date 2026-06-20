@@ -21,7 +21,7 @@ export default function Navbar() {
           href="#"
           className="text-lg font-semibold text-text tracking-tight"
         >
-          Arthur Liu
+          Arthur Liu (劉一君)
         </a>
 
         {/* Desktop */}

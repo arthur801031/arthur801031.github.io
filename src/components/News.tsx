@@ -4,7 +4,7 @@ import { useState } from "react";
 import { news } from "@/data/news";
 import SectionHeader from "./SectionHeader";
 
-const INITIAL_COUNT = 5;
+const INITIAL_COUNT = 7;
 
 export default function News() {
   const [showAll, setShowAll] = useState(false);

@@ -25,6 +25,19 @@ export const publications: Publication[] = [
   },
   {
     title:
+      "CRAFT: Video Diffusion for Bimanual Robot Data Generation",
+    authors:
+      "Jason Chen, <u>I-Chun Arthur Liu</u>, Gaurav S. Sukhatme, Daniel Seita",
+    venue: "International Conference on Intelligent Robots and Systems (IROS), 2026",
+    year: 2026,
+    gif: "/gifs/craft.gif",
+    links: [
+      { label: "arXiv", url: "https://arxiv.org/abs/2604.03552" },
+      { label: "Project", url: "https://craftaug.github.io/" },
+    ],
+  },
+  {
+    title:
       "ROPA: Synthetic Robot Pose Generation for RGB-D Bimanual Data Augmentation",
     authors:
       "Jason Chen, <u>I-Chun Arthur Liu</u>, Gaurav S. Sukhatme, Daniel Seita",

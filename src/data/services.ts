@@ -14,13 +14,14 @@ export interface TalkEntry {
 }
 
 export const mentees: Mentee[] = [
-  { name: "Jason Chen", note: "CoRL 2025, ICRA 2026, Current" },
+  { name: "Jason Chen", note: "CoRL 2025, ICRA 2026, IROS 2026, Current" },
   { name: "Sicheng He (USC → PhD at UC Irvine)", note: "CoRL 2024" },
   { name: "Hanwen Fan (USC → PhD at Iowa State University)", note: "Current" },
   { name: "QJ Tsway", note: "Current" },
 ];
 
 export const reviewerRoles: string[] = [
+  "NeurIPS 2026",
   "CoRL 2022–2025",
   "WAFR 2024",
   "ICRA 2025–2026",

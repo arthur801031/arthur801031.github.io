@@ -12,6 +12,14 @@ export const experiences: Experience[] = [
     role: "Student Researcher",
     organization: "Google DeepMind",
     location: "Mountain View, CA",
+    period: "Jun 2026 – Present",
+    description:
+      "Robotic manipulation research.",
+  },
+  {
+    role: "Student Researcher",
+    organization: "Google DeepMind",
+    location: "Mountain View, CA",
     period: "Jun 2025 – Dec 2025",
     description:
       "<a href=\"https://arxiv.org/abs/2602.00937\" target=\"_blank\" rel=\"noopener\">Developed 3D pre‑training framework for robotic manipulation.</a>",
