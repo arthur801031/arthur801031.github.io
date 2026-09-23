@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
     location: "Mountain View, CA",
     period: "Jun 2026 – Present",
     description:
-      "Robotic manipulation research.",
+      "VLA research.",
   },
   {
     role: "Student Researcher",
