@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
     location: "Mountain View, CA",
     period: "Jun 2025 – Dec 2025",
     description:
-      "<a href=\"https://arxiv.org/abs/2602.00937\" target=\"_blank\" rel=\"noopener\">Developed 3D pre‑training framework for robotic manipulation.</a>",
+      "<a href=\"https://arxiv.org/abs/2602.00937\" target=\"_blank\" rel=\"noopener\">Developed 3D pre‑training framework for robotic manipulation (RSS 2026).</a>",
   },
   {
     role: "PhD Researcher",
